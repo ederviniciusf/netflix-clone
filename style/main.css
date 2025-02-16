@@ -82,3 +82,9 @@ header nav a:hover{
     background-color: #fff;
     color: black;
 }
+.container{
+    margin-left: 10px;
+}
+.filme-principal .container{
+    width: 70%;
+}

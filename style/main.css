@@ -32,6 +32,7 @@ header nav a {
     text-decoration: none;
     color: #aaa;
     margin-right: 10px;
+    transition: .6s;
 }
 
 header nav a:hover{
@@ -66,6 +67,12 @@ header nav a:hover{
 
 }
 
+.topico{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 .botao{
     background-color: rgba(0,0,0,.50);
     border-radius: 2px;
@@ -78,6 +85,10 @@ header nav a:hover{
     transition: .6s ease all;
 }
 
+.botao i{
+    margin-right: 10px;
+}
+
 .botao:hover{
     background-color: #fff;
     color: black;
@@ -87,4 +98,10 @@ header nav a:hover{
 }
 .filme-principal .container{
     width: 70%;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
 }
